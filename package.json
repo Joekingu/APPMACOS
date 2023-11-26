@@ -1,0 +1,28 @@
+{
+  "name": "appmacos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder --mac",
+    "package": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joekingu/APPMACOS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joekingu/APPMACOS/issues"
+  },
+  "homepage": "https://github.com/Joekingu/APPMACOS#readme",
+  "devDependencies": {
+    "electron": "^27.1.2",
+    "electron-builder": "^24.9.1",
+    "electron-packager": "^17.1.2",
+    "sqlite3": "^5.1.6"
+  }
+}
